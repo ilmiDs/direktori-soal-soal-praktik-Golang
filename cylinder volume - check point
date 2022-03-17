@@ -1,0 +1,20 @@
+package main
+
+import "fmt"
+
+func main() {
+
+  var v, p, l, t float64
+
+  fmt.Print("Masukkan panjang balok : ")
+  fmt.Scanln(&p)
+  fmt.Print("Masukkan lebar balok : ")
+  fmt.Scanln(&l)
+  fmt.Print("Masukkan tinggi balok : ")
+  fmt.Scanln(&t)
+
+  v = p * l * t
+
+  fmt.Println("Volume balok adalah : ", v)
+
+}
